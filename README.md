@@ -9,7 +9,7 @@ The `DATABASE_URL` is **hardcoded** in the `.toml` configuration file. This is d
 ## Endpoints
 
 ### 1. **GET /api/products**
-Fetches all the products saved in the database.
+Fetches all the products saved in the database. If product data is empty, proceed to executing endpoint 2.
 
 - **Response**: Returns a list of all products.
 - **Example**: `GET http://localhost:3000/api/products`
