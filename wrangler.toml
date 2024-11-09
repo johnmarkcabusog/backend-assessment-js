@@ -1,3 +1,4 @@
 name = "ma-project"
 main = "src/index.ts"
+vars = { DATABASE_URL = 'postgresql://mind_arc_test_env_owner:5meFj0cWdqOo@ep-muddy-bird-a5blj09t.us-east-2.aws.neon.tech/mind_arc_test_env?sslmode=require'}
 compatibility_date = "2023-04-18"
