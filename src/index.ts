@@ -53,7 +53,7 @@ export default {
     }
 
     // Route handling for DELETE requests
-    if (request.method === "PUT") {
+    if (request.method === "PUT" && url.pathname === "/api/products") {
       return updateProducts(request, env);
     }
     // If no route is matched, return 404
